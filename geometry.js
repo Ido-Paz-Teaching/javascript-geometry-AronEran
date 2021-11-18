@@ -10,8 +10,8 @@ function getSquareArea(side) {
 
 function getCircleArea(radius) {
   /* Your amazing code here 🚀 */
-  let s = (Math.PI).toFixed(2) * Math.pow(radius,2);
-  return s.toFixed(2)
+  let s = Math.PI * Math.pow(radius,2);
+  return Number( s.toFixed(2) );
 }
 
 //Please , don't remove the following code 
